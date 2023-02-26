@@ -1,0 +1,98 @@
+.kitchen{
+  padding: 0 130px;
+  &__title{
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 700!important;
+    margin-bottom: 80px;
+  }
+  &__sub{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px 10px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #210E09;
+    display: flex;
+    margin: 0 auto 40px;
+    justify-content: center;
+    width: 260px;
+  }
+}
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 104px;
+  row-gap: 56px;
+  justify-content: space-between;
+  margin-bottom: 110px;
+  &__btn{
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: #D5621D;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 auto 150px;
+    border: #D5621D 2px solid;
+    &:hover{
+      border-radius: 5px;
+      background: transparent;
+      border: 2px solid #D5621D;
+      cursor: pointer;
+    }
+  }
+  &__card{
+    display: flex;
+    position: relative;
+    width: 470px;
+    &-btn{
+      padding: 8px 20px;
+      border: 2px solid #D5621D;
+      border-radius: 5px;
+      background: transparent;
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+    }
+    &-display{
+      display: flex;
+      flex-direction: column;
+    }
+    &-img{
+      margin-right: 25px;
+    }
+    &-title{
+      margin-bottom: 5.6px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 150%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    &-price{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #D5621D;
+      margin-bottom: 10px;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+    }
+  }
+}

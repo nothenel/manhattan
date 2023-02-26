@@ -1,0 +1,100 @@
+.party{
+  padding: 0 100px;
+  &__left{
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    &Box{
+      padding: 20px 40px;
+      background: #D5621D20;
+      width: 526px;
+      border-radius: 5px;
+      position: relative;
+      &-text{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+
+      }
+    }
+    &Card{
+      padding: 20px 40px 25px;
+      background: #D5621D;
+      border-radius: 5px;
+      width: 526px;
+      position: relative;
+      &-arrow{
+        position: absolute;
+        top: 20px;
+        right: 40px;
+      }
+      &-title{
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      &-text{
+        font-size: 14px;
+        font-weight: 500;
+        position: relative;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        &::before{
+          content: '';
+          background: white;
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          position: absolute;
+          left: -12px;
+          bottom: 6px;
+        }
+      }
+    }
+  }
+  &__right{
+    height: 695px;
+    width: 415px;
+    &Cards{
+      display: flex;
+      column-gap: 24px;
+    }
+    &Card{
+      display: flex;
+      row-gap: 28px;
+      width: 196px;
+      flex-direction: column;
+      &-icons{
+        display: flex;
+        column-gap: 25px;
+        justify-content: center;
+      }
+      &-text{
+        font-size: 15px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+    &-title{
+      font-size: 32px;
+      line-height: 150%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+  }
+  &Content{
+    display: flex;
+    column-gap: 134px;
+  }
+}

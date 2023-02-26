@@ -1,0 +1,128 @@
+@charset "UTF-8";
+.start {
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 120px;
+}
+.start__tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.start__tabs-left {
+  padding: 15px 48px 15px;
+  gap: 10px;
+  border-radius: 5px;
+}
+.start__tabs-right {
+  padding: 15px 72px 15px;
+  gap: 10px;
+  background: rgba(213, 98, 29, 0.1254901961);
+  border-radius: 5px;
+}
+.start__right {
+  width: 416px;
+  height: 540px;
+  background: rgba(213, 98, 29, 0.1254901961);
+  border-radius: 5px;
+}
+.start__left {
+  position: relative;
+  border-radius: 5px;
+  background-image: url("../images/startbackg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  padding: 301px 60px 45px;
+  width: 856px;
+  height: 540px;
+}
+.start__left__backg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.start__left-sub {
+  padding: 10px 20px 10px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  color: #210E09;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.start__left-title {
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.tabs__content {
+  display: none; /* по умолчанию прячем все блоки */
+}
+
+.tabs__content.active {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
+.tabs__content {
+  padding: 39px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 26px;
+  display: none;
+}
+.tabs__content.active {
+  background: rgba(213, 98, 29, 0.062745098);
+  padding: 35px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 26px;
+  border-radius: 5px;
+  height: 495px;
+}
+.tabs__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.tabs__caption-link {
+  padding: 12px 48px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.tabs__caption-link.active {
+  background: rgba(213, 98, 29, 0.062745098);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 26px;
+  border-radius: 5px;
+}
+.linksec {
+  padding: 12px 75px;
+  width: 220px;
+  border-radius: 5px;
+}

@@ -1,0 +1,41 @@
+@import "header";
+@import "start";
+@import "kitchen";
+@import "event";
+@import "party";
+@import "contact";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  transition: .2s all;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  letter-spacing: .8px;
+}
+
+.container {
+  max-width: 1305px;
+  margin: 0 auto;
+}
+
+body {
+  background: #210E09;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  &__text{
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,119 @@
+.start{
+  column-gap: 24px;
+  display: flex;
+  margin-bottom: 120px;
+  &__tabs{
+    display: flex;
+  }
+  &__tabs-left{
+    padding: 15px 48px 15px;
+    gap: 10px;
+    border-radius: 5px;
+  }
+  &__tabs-right{
+    padding: 15px 72px 15px;
+    gap: 10px;
+    background: #D5621D20;
+    border-radius: 5px;
+  }
+
+  &__right{
+    width: 416px;
+    height: 540px;
+    background: #D5621D20;
+    border-radius: 5px;
+  }
+
+  &__left{
+    position: relative;
+    border-radius: 5px;
+    background-image: url("../images/startbackg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    padding: 301px 60px 45px;
+    width: 856px;
+    height: 540px;
+    &__backg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    &-sub{
+      padding: 10px 20px 10px;
+      background: #FFFFFF;
+      border-radius: 5px;
+      color: #210E09;
+      font-weight: 700;
+      font-size: 18px;
+      display: inline;
+      line-height: 150%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    &-title{
+      font-size: 40px;
+      line-height: 150%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-top: 30px;
+    }
+  }
+
+}
+
+.tabs__content {
+  display: none; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
+.tabs{
+  &__content{
+    padding: 39px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    display: none;
+    &.active{
+      background: #D5621D10;
+      padding: 35px 35px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 26px;
+      border-radius: 5px;
+      height: 495px;
+    }
+  }
+  &__caption{
+    display: flex;
+    &-link{
+      padding: 12px 48px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+
+      &.active{
+        background: #D5621D10;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+        border-radius: 5px;
+      }
+    }
+    &-link2{
+
+    }
+  }
+}
+
+.linksec{
+  padding: 12px 75px;
+  width: 220px;
+  border-radius: 5px;
+}

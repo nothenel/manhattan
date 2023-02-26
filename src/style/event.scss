@@ -1,0 +1,32 @@
+.event{
+  padding: 0 20px;
+  margin-bottom: 150px;
+  display: flex;
+  &__mid{
+    margin-right: 44px;
+  }
+  &__left{
+    width: 376px;
+    margin-right: 44px;
+    &-title{
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 150%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 35px;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    &-btn{
+      text-transform: uppercase;
+      margin-left: 28%;
+    }
+  }
+}
